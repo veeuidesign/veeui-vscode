@@ -2,6 +2,7 @@
   "name": "veeui-theme",
 	"displayName": "veeui主题配色",
 	"description": "a theme for vee ui library",
+	"publisher": "we452366",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.51.0"
@@ -9,7 +10,7 @@
 	"categories": [
 		"Other"
 	],
-	"icon": "./logo.png",
+	"icon": "images/logo.png",
 	"activationEvents": [
         "onCommand:veeui-theme.helloWorld"
 	],
@@ -41,8 +42,23 @@
 			"editor/title/context": [],
 			"explorer/context": []
 		},
-		"viewsContainers": {},
-		"views": {},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "vee",
+					"title": "Vee UI 组件库",
+					"icon": "images/vee.svg"
+				}
+			]
+		},
+		"views": {
+			"vee": [
+				{
+					"id": "veeIcon",
+					"name": "标志"
+				}
+			]
+		},
 		"configuration": {}
 	},
 	"scripts": {
@@ -71,5 +87,10 @@
 		"ts-loader": "^8.0.3",
 		"webpack": "^4.44.1",
 		"webpack-cli": "^3.3.12"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/veeuidesign/veeui-vscode"
+	},
+	"homepage": "https://github.com/veeuidesign/veeui-vscode/main/README.md"
 }
