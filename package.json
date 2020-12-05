@@ -24,11 +24,19 @@
 		"keybindings": [
 			{
 				"command": "veeui-theme.helloWorld",
-				"key": "ctrl+w"
+				"key": "ctrl+w",
+				"mac": "cmd+shift+w",
+				"when": "editorTextFocus"
 			}
 		],
 		"menus": {
-			"editor/context": [],
+			"editor/context": [
+				{
+					"when": "editorTextFocus",
+					"command": "veeui-theme.helloWorld",
+					"group": "navigation"
+				}
+			],
 			"editor/title": [],
 			"editor/title/context": [],
 			"explorer/context": []
