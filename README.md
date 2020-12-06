@@ -1,65 +1,67 @@
-# veeui-theme README
+# Vee UI Kit视觉版式1.0
 
-This is the README for your extension "veeui-theme". After writing up a brief description, we recommend including the following sections.
+## 前言
 
-## Features
+Vee UI Kit是基于Vee UI个人组件库设计的一套视觉组件版式，本套件以Element UI版式为蓝本，进行了相关简化，旨在提供简约的组件化模版，外层提供主题配合用户进行相关的主题修改，相关文档版式将以storybook进行文档的展示
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## 价值观
 
-For example if there is an image subfolder under your extension project workspace:
+### 欢快
 
-\!\[feature X\]\(images/feature-x.png\)
+数字界面应以欢快简洁的触达展现产品与用户的情感互动，欢快的色彩与圆润的线条勾画快乐与和谐的氛围
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- 触达客至
 
-## Requirements
+- 快乐至上
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### 热情
 
-## Extension Settings
+产品传达给用户的情感应尽可能体现其本身的情感与表达
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- 色彩洋溢
 
-For example:
+- 明确致达
 
-This extension contributes the following settings:
+### 明亮
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+明亮即旺达，产品给予用户希望与向上
 
-## Known Issues
+- 通透心境
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- 达观意会
 
-## Release Notes
+## 图片
 
-Users appreciate release notes as you update your extension.
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/1_Color.png)
 
-### 1.0.0
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/2_Button.png)
 
-Initial release of ...
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/3_Radio.png)
 
-### 1.0.1
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/4_Input.png)
 
-Fixed issue #.
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/5_Select.png)
 
-### 1.1.0
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/6_Tabs.png)
 
-Added features X, Y, and Z.
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/7_Pagination.png)
 
------------------------------------------------------------------------------------------------------------
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/8_Notification.png)
 
-## Working with Markdown
+![图片](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/9_Table.png)
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## 资源
 
-### For more information
+- [Vee UI Kit](https://vleedesigntheory.github.io/design/vi/veeuikit20200815/kit.pdf)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 参考
 
-**Enjoy!**
+- [ElementUI](https://element.eleme.io)
+- [Ant-Design](https://ant.design)
+- [Fiori-Design](https://experience.sap.com/fiori-design-web)
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines)
+- [Lighting Design System](https://lightingdesignsystem.com)
+- [Material Design](https://material.io)
+- [WeUI](https://weui.io)
+
